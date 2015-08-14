@@ -13,9 +13,9 @@
 * Download the file, if it has not yet been downloaded
 * Unzip the file
 * Build a list of variable names from the features.txt file, include any variable with the word mean or std
-** NOTE: see comment section below
+..* NOTE: see comment section below
 * Fix the names so they are more user friendly
-** NOTE:: see comment section below
+.. NOTE:: see comment section below
 * For each data set (test, train)
 ** Read in the three files
 ** Select the appropriate columns from the dataset
@@ -33,7 +33,7 @@ To use data from a location other than the subdirectory **data** change the valu
 
 If the files are  not in the subdirectory from the zip file (**UCI HAR Dataset**) change the value of m*midDIR*  at the top of the script.
 
-The final results will be stored in *finalTable.csv* in the current working directory.  
+The final results will be stored in *finalTable.txt* in the current working directory.  
 
 ## Comments
 
@@ -43,9 +43,23 @@ When creating column names, I removed all dashes, parenthesis.  I also did my be
 
 ## Project Description:
 <pre>
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
+The purpose of this project is to demonstrate your ability to collect, work 
+with, and clean a data set. The goal is to prepare tidy data that can be used 
+for later analysis. You will be graded by your peers on a series of yes/no
+questions related to the project. You will be required to submit: 1) a tidy 
+data set as described below, 2) a link to a Github repository with your script
+for performing the analysis, and 3) a code book that describes the variables,
+the data, and any transformations or work that you performed to clean up the 
+data called CodeBook.md. You should also include a README.md in the repo with
+your scripts. This repo explains how all of the scripts work and how they are
+connected.  
 
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+One of the most exciting areas in all of data science right now is wearable 
+computing - see for example this article . Companies like Fitbit, Nike, and 
+Jawbone Up are racing to develop the most advanced algorithms to attract new
+users. The data linked to from the course website represent data collected 
+from the accelerometers from the Samsung Galaxy S smartphone. A full 
+description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
