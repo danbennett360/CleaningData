@@ -13,14 +13,14 @@
 * Download the file, if it has not yet been downloaded
 * Unzip the file
 * Build a list of variable names from the features.txt file, include any variable with the word mean or std
-..* NOTE: see comment section below
+  * NOTE: see comment section below 
 * Fix the names so they are more user friendly
-.. NOTE:: see comment section below
+  * NOTE:: see comment section below 
 * For each data set (test, train)
-** Read in the three files
-** Select the appropriate columns from the dataset
-** Append subjectID and activity data to this dataset
-** Merge this dataset into the final dataset
+  * Read in the three files
+  * Select the appropriate columns from the dataset
+  * Append subjectID and activity data to this dataset
+  * Merge this dataset into the final dataset
 * Use the aggregate function to complete the final computation
 * Save the file
 
